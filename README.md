@@ -23,5 +23,4 @@
 
 - 读取pwd下面的package.json
 - 获取依赖的，把非依赖的模块都放到node_modules/cache下面
-- 创建.npmrc或追加`cache='./node_modules/cache'`
 - 将node_modules/cache下面的模块都以软连接的形式放到~/node_modules下面

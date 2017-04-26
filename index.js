@@ -41,19 +41,19 @@ var c = node_modules_folder + "/cache"
 shell.rm('-rf', c) && fs.mkdirSync(c)
 
 
-var npmrc  = current_path + "/.npmrc"
+// var npmrc  = current_path + "/.npmrc"
   
-if (!fs.existsSync(npmrc)) {
-  fs.writeFileSync(npmrc, "\ncache='./node_modules/cache'\n")
-}else{
-  var npmrc_string = fs.readFileSync(npmrc).toString()
+// if (!fs.existsSync(npmrc)) {
+//   fs.writeFileSync(npmrc, "\ncache='./node_modules/cache'\n")
+// }else{
+//   var npmrc_string = fs.readFileSync(npmrc).toString()
   
-  if (/cache=\'\.\/node_modules\/cache\'/.test(npmrc_string)) {
-    console.log('exist .npmrc config')
-  } else {
-    fs.appendFileSync(npmrc, "\ncache='./node_modules/cache'\n")
-  }
-}
+//   if (/cache=\'\.\/node_modules\/cache\'/.test(npmrc_string)) {
+//     console.log('exist .npmrc config')
+//   } else {
+//     fs.appendFileSync(npmrc, "\ncache='./node_modules/cache'\n")
+//   }
+// }
   
 for(var k in folders){
   var is_exist = false
