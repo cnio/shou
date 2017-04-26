@@ -14,7 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "debug": "^2.6.4",
-    "fs-extra": "^2.1.2",
     "shelljs": "^0.7.7",
     "user-home": "^2.0.0"
   }
