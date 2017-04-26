@@ -7,6 +7,16 @@
 - 其实更多的，你只关系你的package.json的dependency模块
 - 比如依赖babel，你的node_modules就要有100多个模块
 
+## 安装
+
+> $ [sudo] npm i -g shou
+
+## 用法
+
+在package.json目录里
+
+> $ shou
+
 ## 实现步骤
 
 - 读取pwd下面的package.json
