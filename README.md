@@ -7,6 +7,8 @@
 - 其实更多的，你只关系你的package.json的dependency模块
 - 比如依赖babel，你的node_modules就要有100多个模块
 
+![](demo.gif)
+
 ## 安装
 
 > $ [sudo] npm i -g shou
